@@ -1,0 +1,42 @@
+2026-09-26 16:28:19.923 INFO  [JavaFX Application Thread] io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=/spa, location=CLASSPATH, precompressMaxSize=-1, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=null, mimeTypes={}, roles=[]). File system location: 'file:///C:/Users/usman/Documents/STARTUPS/MOCK%20HAVEN/kida-core/target/classes/spa/'
+2026-09-26 16:28:20.074 INFO  [JavaFX Application Thread] io.javalin.Javalin - Starting Javalin ...
+2026-09-26 16:28:20.081 INFO  [JavaFX Application Thread] org.eclipse.jetty.server.Server - jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 25.0.3+9-LTS
+2026-09-26 16:28:20.189 INFO  [JavaFX Application Thread] o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2026-09-26 16:28:20.204 INFO  [JavaFX Application Thread] o.e.j.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@15068850{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@2f4b92be{STARTED}}
+2026-09-26 16:28:20.213 INFO  [JavaFX Application Thread] o.e.j.e.s.ServletContextHandler - Started oeje10s.ServletContextHandler@15068850{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@2f4b92be{STARTED}}
+2026-09-26 16:28:20.323 INFO  [JavaFX Application Thread] o.e.jetty.server.AbstractConnector - Started oejs.ServerConnector@6a8fc39c{HTTP/1.1, (http/1.1)}{0.0.0.0:5050}
+2026-09-26 16:28:20.326 INFO  [JavaFX Application Thread] org.eclipse.jetty.server.Server - Started oejs.Server@15034927{STARTING}[12.1.12,sto=0] @249ms
+2026-09-26 16:28:20.326 INFO  [JavaFX Application Thread] io.javalin.Javalin - 
+       __                  ___          _____
+      / /___ __   ______ _/ (_)___     /__  /
+ __  / / __ `/ | / / __ `/ / / __ \      / /
+/ /_/ / /_/ /| |/ / /_/ / / / / / /     / /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/     /_/
+
+       https://javalin.io/documentation
+
+2026-09-26 16:28:20.326 INFO  [JavaFX Application Thread] io.javalin.Javalin - Javalin started in 361ms \o/
+2026-09-26 16:28:20.334 INFO  [JavaFX Application Thread] io.javalin.Javalin - Listening on http://localhost:5050/
+2026-09-26 16:28:20.351 INFO  [JavaFX Application Thread] io.javalin.Javalin - You are running Javalin 7.2.3 (released August 11, 2026).
+2026-09-26 16:28:20.351 INFO  [JavaFX Application Thread] c.kidacore.server.ApplicationServer - Server is up and running ...
+2026-09-26 16:29:31.825 INFO  [JavaFX Application Thread] io.javalin.Javalin - Static file handler added: StaticFileConfig(hostedPath=/, directory=/spa, location=CLASSPATH, precompressMaxSize=-1, aliasCheck=null, headers={Cache-Control=max-age=0}, skipFileFunction=null, mimeTypes={}, roles=[]). File system location: 'file:///C:/Users/usman/Documents/STARTUPS/MOCK%20HAVEN/kida-core/target/classes/spa/'
+2026-09-26 16:29:32.008 INFO  [JavaFX Application Thread] io.javalin.Javalin - Starting Javalin ...
+2026-09-26 16:29:32.014 INFO  [JavaFX Application Thread] org.eclipse.jetty.server.Server - jetty-12.1.12; built: 2026-08-03T22:37:55.389Z; git: 10dd3948f37767b84cc2c62358364f042e51dbbe; jvm 25.0.3+9-LTS
+2026-09-26 16:29:32.133 INFO  [JavaFX Application Thread] o.e.j.s.DefaultSessionIdManager - Session workerName=node0
+2026-09-26 16:29:32.148 INFO  [JavaFX Application Thread] o.e.j.server.handler.ContextHandler - Started oeje10s.ServletContextHandler@15068850{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@2f4b92be{STARTED}}
+2026-09-26 16:29:32.163 INFO  [JavaFX Application Thread] o.e.j.e.s.ServletContextHandler - Started oeje10s.ServletContextHandler@15068850{ROOT,/,b=null,a=AVAILABLE,h=oeje10s.SessionHandler@2f4b92be{STARTED}}
+2026-09-26 16:29:32.252 INFO  [JavaFX Application Thread] o.e.jetty.server.AbstractConnector - Started oejs.ServerConnector@6a8fc39c{HTTP/1.1, (http/1.1)}{0.0.0.0:5050}
+2026-09-26 16:29:32.254 INFO  [JavaFX Application Thread] org.eclipse.jetty.server.Server - Started oejs.Server@15034927{STARTING}[12.1.12,sto=0] @243ms
+2026-09-26 16:29:32.254 INFO  [JavaFX Application Thread] io.javalin.Javalin - 
+       __                  ___          _____
+      / /___ __   ______ _/ (_)___     /__  /
+ __  / / __ `/ | / / __ `/ / / __ \      / /
+/ /_/ / /_/ /| |/ / /_/ / / / / / /     / /
+\____/\__,_/ |___/\__,_/_/_/_/ /_/     /_/
+
+       https://javalin.io/documentation
+
+2026-09-26 16:29:32.254 INFO  [JavaFX Application Thread] io.javalin.Javalin - Javalin started in 357ms \o/
+2026-09-26 16:29:32.258 INFO  [JavaFX Application Thread] io.javalin.Javalin - Listening on http://localhost:5050/
+2026-09-26 16:29:32.269 INFO  [JavaFX Application Thread] io.javalin.Javalin - You are running Javalin 7.2.3 (released August 11, 2026).
+2026-09-26 16:29:32.269 INFO  [JavaFX Application Thread] c.kidacore.server.ApplicationServer - Server is up and running ...
