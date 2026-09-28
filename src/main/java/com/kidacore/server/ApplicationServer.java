@@ -1,6 +1,7 @@
 package com.kidacore.server;
 
 import com.kidacore.server.config.Default;
+import com.kidacore.server.routes.PreferenceRoute;
 import io.javalin.Javalin;
 import io.javalin.http.staticfiles.Location;
 import lombok.extern.slf4j.Slf4j;
@@ -8,14 +9,14 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class ApplicationServer {
 
-    public static void init () {
-        var server = Javalin.create(config -> {
+    public static Javalin init () {
+        return Javalin.create(config -> {
             config.staticFiles.add(staticFileConfig -> {
                 staticFileConfig.hostedPath = "/";
                 staticFileConfig.directory = "/spa";
                 staticFileConfig.location = Location.CLASSPATH;
             });
-        }).start(Default.SERVER_PORT);
-        log.info("Server is up and running ...");
+            new PreferenceRoute(config);
+        });
     }
 }

@@ -1,6 +1,7 @@
 package com.kidacore.deskstop.component;
 
 import com.kidacore.server.config.Default;
+import io.javalin.Javalin;
 import javafx.application.Platform;
 import javafx.stage.Stage;
 import lombok.extern.slf4j.Slf4j;
@@ -13,7 +14,7 @@ import java.net.URI;
 public class Tray {
     private TrayIcon trayIcon;
 
-    public void initialize (Stage stage) {
+    public void initialize (Javalin server, Stage stage) {
         if (!SystemTray.isSupported()) {
             log.info("System tray is not supported");
             return;
@@ -33,6 +34,7 @@ public class Tray {
         MenuItem exit = new MenuItem("Exit");
         exit.addActionListener(e ->
             Platform.runLater(() -> {
+                server.stop();
                 tray.remove(trayIcon);
                 Platform.exit();
             })
